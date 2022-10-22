@@ -9,7 +9,7 @@ dependencies:
   - name: general-template
     version: "0.1.0"
     alias: an-app
-    repository: "file://general-template"
+    repository: "file://../templates/general-template"
   
    
 
