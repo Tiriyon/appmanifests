@@ -1,0 +1,8 @@
+apigw-dmz:
+  image:
+    repository: "https://hub.docker.com/layers/library/alpine:3.16.2"
+
+  customRoute:
+    enabled: false
+
+
