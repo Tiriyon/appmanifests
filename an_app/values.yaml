@@ -1,0 +1,6 @@
+an-app:
+  image:
+    repository: "localhost:5000/busybox:latest"
+
+
+
