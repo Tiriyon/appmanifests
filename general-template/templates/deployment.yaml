@@ -6,7 +6,6 @@ metadata:
   labels:
     {{- include "general-template.labels" . | nindent 4 }}
   annotations:
-    sidecar.jaegertracing.io/inject: "jaeger-elasticsearch"
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
