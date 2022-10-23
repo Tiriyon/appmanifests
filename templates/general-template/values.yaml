@@ -10,7 +10,7 @@ volume:
   mountPath: ""
 
 image:
-  repository: "corpnexus.corp.cellcom.co.il/digital/digital.okd.test/102710"
+  repository: 
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
@@ -36,8 +36,6 @@ podAnnotations: {}
 podSecurityContext: {}
   # fsGroup: 2000
 envVar:
-  - name: test
-    value: elad
             
 securityContext: {}
   # capabilities:
