@@ -1,6 +1,6 @@
 an-app:
   image:
-    repository: "http://registry.dev.svc.cluster.local:5000/busybox"
+    repository: "registry.dev.svc.cluster.local:5000/busybox"
 
 
 
