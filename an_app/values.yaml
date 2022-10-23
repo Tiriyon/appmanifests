@@ -1,6 +1,6 @@
 an-app:
   image:
-    repository: "localhost:5000/busybox"
+    repository: "192.168.49.1:5000/busybox"
 
 
 
